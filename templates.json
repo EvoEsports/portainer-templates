@@ -1,0 +1,24 @@
+{
+	"version": "2",
+	"templates": [{
+			"type": 3,
+			"title": "Trackmania - EvoSC",
+			"description": "Trackmania Server with EvoSC",
+			"note": "Deploys a Trackmania Server with the EvoSC controller.",
+			"categories": [
+				"CMS"
+			],
+			"platform": "linux",
+			"logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/wordpress.png",
+			"repository": {
+				"url": "https://github.com/EvoTM/docker-composefiles",
+				"stackfile": "trackmania/docker-compose.yml"
+			},
+			"env": [{
+				"name": "MASTER_LOGIN",
+				"label": "Master server login",
+				"description": "Login name of the master server login"
+			}]
+		}
+	]
+}
