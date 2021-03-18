@@ -18,6 +18,18 @@
 				"name": "MASTER_LOGIN",
 				"label": "Master server login",
 				"description": "Login name of the master server login"
+			},{
+				"name": "MASTER_PASSWORD",
+				"label": "Master server password",
+				"description": "Password of the master server login"
+			},{
+				"name": "SERVER_NAME",
+				"label": "Server name",
+				"description": "Name of the Trackmania server"
+			},{
+				"name": "DB_HOST",
+				"label": "Database host address",
+				"description": "Address of the mysql host"
 			}]
 		}
 	]
