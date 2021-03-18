@@ -11,7 +11,7 @@
 			"platform": "linux",
 			"logo": "https://i.imgur.com/QmelZ9T.png",
 			"repository": {
-				"url": "https://github.com/EvoTM/docker-composefiles/tree/portainer-test",
+				"url": "https://github.com/EvoTM/docker-composefiles/blob/portainer-test",
 				"stackfile": "trackmania/docker-compose.yml"
 			},
 			"env": [{
