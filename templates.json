@@ -27,6 +27,11 @@
 				"label": "Server name",
 				"description": "Name of the Trackmania server"
 			},{
+				"name": "DB_HOST",
+				"label": "MySQL database name",
+				"description": "Name of the MySQL database",
+				"default": "10.0.0.10"
+			},{
 				"name": "DB_NAME",
 				"label": "MySQL database name",
 				"description": "Name of the MySQL database"
@@ -36,7 +41,6 @@
 				"description": "MySQL user name"
 			},{
 				"name": "DB_PASSWORD",
-				"default": "bla",
 				"label": "MySQL database password",
 				"description": "MySQL password"
 			}]
