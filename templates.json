@@ -6,10 +6,10 @@
 			"description": "Trackmania Server with EvoSC",
 			"note": "Deploys a Trackmania Server with the EvoSC controller.",
 			"categories": [
-				"CMS"
+				"Gameserver"
 			],
 			"platform": "linux",
-			"logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/wordpress.png",
+			"logo": "https://i.imgur.com/QmelZ9T.png",
 			"repository": {
 				"url": "https://github.com/EvoTM/docker-composefiles",
 				"stackfile": "trackmania/docker-compose.yml"
