@@ -44,6 +44,56 @@
 				"label": "MySQL database password",
 				"description": "MySQL password"
 			}]
+		},
+		{
+			"type": 3,
+			"title": "Trackmania - EvoSC (New)",
+			"description": "Trackmania Server with EvoSC",
+			"note": "Deploys a Trackmania Server with the EvoSC controller.",
+			"categories": [
+				"Gameserver"
+			],
+			"platform": "linux",
+			"logo": "https://i.imgur.com/QmelZ9T.png",
+			"repository": {
+				"url": "https://github.com/EvoTM/docker-composefiles/blob/portainer-test",
+				"stackfile": "trackmania/docker-compose.yml"
+			},
+			"env": [{
+				"name": "MASTER_LOGIN",
+				"label": "Master server login",
+				"description": "Login name of the master server login"
+			},{
+				"name": "MASTER_PASSWORD",
+				"label": "Master server password",
+				"description": "Password of the master server login"
+			},{
+				"name": "SERVER_NAME",
+				"label": "Server name",
+				"description": "Name of the Trackmania server"
+			},{
+				"name": "SYSTEM_DISABLE_REPLAYS",
+				"label": "Disable replay recording.",
+				"description": "",
+				"default": "False"
+			},{
+				"name": "SYSTEM_SAVE_RUNS",
+				"label": "Disable saving of runs.",
+				"description": ""
+				"default": "False"
+			},{
+				"name": "DB_NAME",
+				"label": "MySQL database name",
+				"description": "Name of the MySQL database"
+			},{
+				"name": "DB_USER",
+				"label": "MySQL database user",
+				"description": "MySQL user name"
+			},{
+				"name": "DB_PASSWORD",
+				"label": "MySQL database password",
+				"description": "MySQL password"
+			}]
 		}
 	]
 }
