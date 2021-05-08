@@ -79,7 +79,7 @@
 			},{
 				"name": "SYSTEM_SAVE_RUNS",
 				"label": "Disable saving of runs.",
-				"description": ""
+				"description": "",
 				"default": "False"
 			},{
 				"name": "DB_NAME",
