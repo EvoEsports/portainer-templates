@@ -68,6 +68,11 @@
 				"label": "Master server password",
 				"description": "Password of the master server login"
 			},{
+				"name": "PORT",
+				"label": "Game Server Port",
+				"description": "Trackmania game server port.",
+				"default": "10000"
+			},{
 				"name": "SERVER_NAME",
 				"label": "Server name",
 				"description": "Name of the Trackmania server"
