@@ -46,7 +46,7 @@
 			}]
 		},
 		{
-			"type": 3,
+			"type": 2,
 			"title": "Trackmania - EvoSC (New)",
 			"description": "Trackmania Server with EvoSC",
 			"note": "Deploys a Trackmania Server with the EvoSC controller.",
